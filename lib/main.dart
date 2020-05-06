@@ -17,15 +17,26 @@ class MyApp extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
-                radius: 50,
-                backgroundImage: AssetImage('images/icon.png'),
+                radius: 65,
+                backgroundImage: AssetImage('images/icon3.png'),
               ),
               Text(
-                'TOMIWA',
+                'Tomiwa',
                 style: TextStyle(
-                    fontSize: 40.0,
-                    color: Colors.white,
-                    fontWeight: FontWeight.bold),
+                  fontFamily: 'Pacifico',
+                  fontSize: 35.0,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              Text(
+                'SOFTWARE DEVELOPER',
+                style: TextStyle(
+                    fontFamily: 'SourceSansPro',
+                    fontSize: 25.0,
+                    color: Colors.teal[100],
+                    fontWeight: FontWeight.bold,
+                    letterSpacing: 2.5),
               ),
             ],
           ),
