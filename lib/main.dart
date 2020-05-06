@@ -113,23 +113,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-//Row(
-//children: <Widget>[
-//Icon(
-//Icons.email,
-//color: Colors.pink.shade300,
-//),
-//SizedBox(
-//width: 20.0,
-//),
-//Text(
-//'to@tomiwaola.ca',
-//style: TextStyle(
-//color: Colors.teal,
-//fontFamily: 'SourceSansPro',
-//fontSize: 22.0,
-//),
-//),
-//],
-//),
